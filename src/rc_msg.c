@@ -25,6 +25,7 @@
 #include "asm/msr.h"
 #include <linux/page-flags.h>
 #include <linux/vmalloc.h>
+#include <scsi/sg.h>
 #include "rc_ahci.h"
 
 int  rc_setup_communications(void);
